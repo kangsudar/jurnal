@@ -15,7 +15,7 @@ import {
   getRecentPosts,
 } from '@/lib/data-utils'
 import { Image } from 'astro:assets'
-import profileImage from '/public/static/common/munnar-paperframe1.png'
+import profileImage from '/public/static/common/profile.png'
 const blog = await getRecentPosts(SITE.featuredPostCount)
 const projects = await getFeaturedProjects(SITE.featuredProjectCount)
 const experiences = await getAllExperiences()
