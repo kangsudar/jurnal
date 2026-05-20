@@ -1,7 +1,7 @@
 import type { IconEntry, IconMap, SocialLink, Site, Person } from '@/types'
 
 export const SITE: Site = {
-  title: 'infinull',
+  title: 'Sudar Blogger',
   description:
     'Portfolio and Blog of Sedhu Madhav (aka infinull)',
   author: 'infinull',
@@ -15,11 +15,7 @@ export const SITE: Site = {
 }
 
 export const NAV_LINKS: SocialLink[] = [
-  {
-    href: '/search',
-    label: '',
-    icon: 'lucide:search',
-  },
+  
   {
     href: '/about',
     label: 'about',
@@ -33,9 +29,9 @@ export const NAV_LINKS: SocialLink[] = [
     label: 'blog',
   },
   {
-    href: '/tags',
-    label: 'tags',
-    hideBelowPx: 350,
+    href: '/search',
+    label: '',
+    icon: 'lucide:search',
   }
 ]
 
